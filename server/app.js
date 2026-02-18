@@ -121,7 +121,7 @@ app.post('/api/register', async (req, res) => {
             return res.json({
                 message: "Welcome back!",
                 teamId: existing.id,
-                startTime: existing.startTime ? parseInt(existing.startTime) : null, // Handle BigInt
+                startTime: existing.starttime ? parseInt(existing.starttime) : null, // Handle BigInt
                 sessionToken: token
             });
         }
@@ -157,7 +157,7 @@ app.post('/api/heartbeat', async (req, res) => {
             return res.status(401).json({ error: "Team not found. Please login." });
         }
 
-        if (team.sessionToken !== sessionToken) {
+        if (team.sessiontoken !== sessionToken) {
             return res.status(409).json({ error: "Session active on another device." });
         }
 
@@ -181,9 +181,9 @@ app.post('/api/start-quiz', async (req, res) => {
         }
 
         // If already started, return existing start time
-        if (team.startTime) {
+        if (team.starttime) {
             return res.json({
-                startTime: parseInt(team.startTime), // Handle BigInt
+                startTime: parseInt(team.starttime), // Handle BigInt
                 message: "Quiz already in progress"
             });
         }
@@ -250,8 +250,15 @@ app.get('/api/leaderboard', async (req, res) => {
         const rows = await dbAll("SELECT * FROM teams WHERE status = 'completed' ORDER BY score DESC, timeTaken ASC");
 
         const parsedRows = rows.map(r => ({
-            ...r,
-            startTime: r.startTime ? parseInt(r.startTime) : null,
+            id: r.id,
+            teamName: r.teamname,
+            leaderName: r.leadername,
+            scholarNumber: r.scholarnumber,
+            score: r.score,
+            status: r.status,
+            startTime: r.starttime ? parseInt(r.starttime) : null,
+            endTime: r.endtime,
+            timeTaken: r.timetaken,
             answers: r.answers ? JSON.parse(r.answers) : {}
         }));
 
