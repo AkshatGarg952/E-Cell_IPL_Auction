@@ -1,0 +1,13 @@
+{
+    "name": "e-cell-ipl-auction-root",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "postinstall": "cd server && npm install",
+        "build": "echo 'No build step for server' && exit 0",
+        "start": "cd server && node app.js"
+    },
+    "engines": {
+        "node": "18.x"
+    }
+}
