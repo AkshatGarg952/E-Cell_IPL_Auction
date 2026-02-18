@@ -14,15 +14,28 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Initialize PostgreSQL Pool
-const pool = new Pool({
-    user: process.env.DB_USER || 'postgres',
-    host: process.env.DB_HOST || 'localhost',
-    database: process.env.DB_NAME || 'ecell_db',
-    password: process.env.DB_PASSWORD || 'password',
-    port: process.env.DB_PORT || 5432,
-    max: 20, // Max clients in pool
-    idleTimeoutMillis: 30000,
-});
+const connectionString = process.env.DATABASE_URL || process.env.DATABASE_PUBLIC_URL;
+
+const poolConfig = connectionString
+    ? {
+        connectionString,
+        ssl: {
+            rejectUnauthorized: false, // Required for Railway/Heroku
+        },
+        max: 20, // Max clients in pool
+        idleTimeoutMillis: 30000,
+    }
+    : {
+        user: process.env.DB_USER || 'postgres',
+        host: process.env.DB_HOST || 'localhost',
+        database: process.env.DB_NAME || 'ecell_db',
+        password: process.env.DB_PASSWORD || 'password',
+        port: process.env.DB_PORT || 5432,
+        max: 20, // Max clients in pool
+        idleTimeoutMillis: 30000,
+    };
+
+const pool = new Pool(poolConfig);
 
 pool.on('error', (err, client) => {
     console.error('Unexpected error on idle client', err);
