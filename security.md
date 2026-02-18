@@ -1,49 +1,47 @@
-# Security & Anti-Cheating Guide (Simplified)
+# Security and Anti-Cheating Guide
 
-This document explains how we keep the "IPL Auction" Quiz fair for everyone, in simple terms.
+This document describes the controls implemented in this project for the IPL Auction quiz. It focuses on on-device digital cheating and explains the limits so expectations are clear for desktop and mobile users.
 
-## How We Prevent Cheating
+## What Is Enforced On The Server
 
-### 1. The Clock is Boss ⏱️
-*   **What it means:** The timer runs on our main computer (server), not yours.
-*   **Why it matters:** Even if you refresh the page or try to trick your browser clock, our server knows the real time. If the server says time is up, your quiz submits automatically.
+- The question API returns only the question text and options. Correct answers are stored only on the server.
+- Scoring is computed on the server during submission. The client cannot send a score.
+- The quiz start time is created once on the server per team and reused on reloads. Refreshing does not reset the start time.
+- Each team has a session token. When a team logs in again, the server rotates the token and the older session becomes invalid.
 
-### 2. No Tab Switching Allowed 🚫
-*   **What it means:** You cannot leave the quiz screen. If you switch tabs, minimize the window, or click outside the browser:
-    *   **1st time:** You get a warning.
-    *   **2nd time:** Final warning.
-    *   **3rd time:** **AUTO-SUBMIT.** Your quiz is over immediately.
-*   **Why it matters:** This stops people from Googling answers or using AI tools in another tab.
+## What Is Enforced In The Client
 
-### 3. Navigation is Locked 🔒
-*   **What it means:** The "Back" button won't work.
-*   **Why it matters:** Prevents accidental exits or trying to go back to change answers unfairly. If you crash, don't worry—you can log back in and pick up where you left off.
+- A five-minute countdown runs in the browser but is anchored to the server start time. The quiz auto-submits when the timer reaches zero.
+- Tab switching or losing focus is detected. The first two violations show warnings. The third is a final warning. The next violation triggers auto-submit.
+- Back navigation is blocked during the quiz to reduce accidental exits.
+- Copy, right-click, and text selection are disabled inside the quiz view to make casual copy/paste harder.
+- Question order is shuffled once and saved in local storage. Reloads restore the same order and the same current question.
+- Answers are saved to local storage as the user selects options so a reload does not allow a reset.
+- A heartbeat runs roughly every 15 to 20 seconds. If another device logs in with the same team, the earlier device is logged out.
 
-### 4. Copy-Paste Protection 🛡️
-*   **What it means:** You cannot **Right-Click** or **Select Text** on the quiz page.
-*   **Why it matters:** This makes it significantly harder to copy the question text and paste it into Google or ChatGPT. You'd have to destroy your flow to type it out manually.
+## Mobile Behavior
 
-### 5. No "Inspect Element" Hacks 🕵️‍♂️
-*   **What it means:** We don't send the correct answers to your browser until the end.
-*   **Why it matters:** Tech-savvy people can't use "Inspect Element" to find the hidden answers in the code. They aren't there.
+- Switching apps, opening the app switcher, or backgrounding the browser can trigger the same focus and visibility checks as tab switching.
+- Incoming calls or notification overlays may count as a focus change and consume a warning.
+- Long-press selection and copy actions are blocked in the quiz container where the browser respects selection settings.
 
-### 6. One Device Rule 📱
-*   **What it means:** You *can* log in on a second device if your first one dies, BUT your answers **do NOT sync** between them.
-*   **Why it matters:** If you try to cheat by having two people take the same quiz on different devices, you will overwrite each other's answers and likely get a lower score. Stick to one device.
+## Examples
 
-### 7. Crash Recovery & Fairness 🔄
-*   **What it means:** If your browser crashes or you accidentally reload, the quiz **remembers exactly where you were**.
-*   **Why it matters:** You cannot "start over" or "reroll" the question order by refreshing. This ensures everyone faces the same pressure and cannot exploit reloading to reset the timer or question sequence.
+1. A user opens WhatsApp during the quiz and returns. They receive a warning. After three warnings, the next app switch auto-submits the quiz.
+2. A user refreshes the page on question 4. The timer resumes based on the original server start time and the same question order is restored.
+3. A user logs in on a second phone. Within about 15 to 20 seconds the first phone is logged out because the session token has rotated.
 
----
+## Known Limitations
 
-## Where Cheating is Still Possible (The "Loose Ends")
+- The server does not currently reject late submissions. The timer is enforced by the client, so a modified client could bypass it.
+- There is no way to detect a second device that is not logged in (for example, someone searching answers on another phone).
+- Physical collaboration in the same room cannot be detected without in-person proctoring.
+- Screen sharing, casting, photos, or screenshots are not blocked.
+- Clearing local storage or registering a new team name can reset the local question order and answers.
+- The admin dashboard uses a client-side password prompt. It should only be used on trusted admin devices.
 
-Even with these measures, we cannot stop everything without a human invigilator or webcam access:
+## Operational Notes
 
-1.  **Multiple Devices (The "Phone Friend"):** We cannot detect if you are using your phone to Google answers while taking the quiz on your laptop.
-2.  **Verbal Collaboration:** If multiple people are sitting together, they can talk and help each other.
-3.  **Screen Sharing/Mirroring:** Someone could be watching your screen remotely (via HDMI or casting) and searching for answers on another device.
-4.  **OCR/Camera Tools:** A user could point their phone camera at the screen to scan the question using an app like Google Lens.
-
-**Conclusion:** Our system stops digital cheating on the device itself, but physical supervision is required to stop external help.
+- Use a single device and keep the quiz in the foreground for the full five minutes.
+- Turn on Do Not Disturb on mobile to avoid accidental focus changes.
+- If a device crashes or reloads, re-open the quiz quickly. Your progress and order will be restored on that device.

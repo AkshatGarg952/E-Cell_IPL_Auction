@@ -98,13 +98,24 @@ const LandingPage = () => {
                     exit={{ opacity: 0, x: 20 }}
                     className="space-y-6 text-white"
                 >
+                    <div className="bg-white/5 border-l-4 border-white/40 p-4">
+                        <h3 className="text-xl font-bold text-white mb-2 uppercase tracking-wide">Mobile Setup (Must Follow)</h3>
+                        <ul className="space-y-2 text-sm text-gray-300 list-disc list-inside">
+                            <li><strong className="text-white">One Phone Only:</strong> Do not open the quiz on another device. Progress does not sync.</li>
+                            <li><strong className="text-white">Stay On Screen:</strong> Keep the browser open and full-screen. App switching, split-screen, or locking the phone counts as leaving.</li>
+                            <li><strong className="text-white">Stable Internet:</strong> Use strong Wi-Fi or data. Do not switch networks during the auction.</li>
+                            <li><strong className="text-white">Turn On DND:</strong> Enable Do Not Disturb to block notifications and calls during the auction.</li>
+                            <li><strong className="text-white">Battery Ready:</strong> Keep battery above 20% and disable battery saver to avoid timer pauses.</li>
+                        </ul>
+                    </div>
+
                     <div className="bg-yellow-500/10 border-l-4 border-yellow-500 p-4">
                         <h3 className="text-xl font-bold text-yellow-500 mb-2 uppercase tracking-wide">Auction Rules</h3>
                         <ul className="space-y-2 text-sm text-gray-300 list-disc list-inside">
                             <li><strong className="text-white">Strict Timing:</strong> The auction timer runs on the server. Refreshing will NOT reset time.</li>
-                            <li><strong className="text-white">No Tab Switching:</strong> Leaving the auction screen (switching tabs/windows) will trigger a warning.</li>
+                            <li><strong className="text-white">No App/Tab Switching:</strong> Leaving the auction screen will trigger a warning.</li>
                             <li><strong className="text-red-400">Auto-Submission:</strong> 3 Violations (Tab switching) will automatically SEAL your bid (Submit Quiz).</li>
-                            <li><strong className="text-white">One Device:</strong> Login from extensive devices is allowed for recovery, but answers do NOT sync.</li>
+                            <li><strong className="text-white">Avoid Back/Forward:</strong> Using back/forward navigation can interrupt your session.</li>
                         </ul>
                     </div>
 
