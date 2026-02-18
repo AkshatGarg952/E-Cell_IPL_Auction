@@ -89,6 +89,17 @@ const dbAll = async (sql, params = []) => {
 
 // --- Routes ---
 
+// 0. GET /health (Basic health check)
+app.get('/health', async (req, res) => {
+    try {
+        await pool.query('SELECT 1');
+        res.json({ status: 'ok', db: 'ok', timestamp: new Date().toISOString() });
+    } catch (err) {
+        console.error("Health Check Error:", err);
+        res.status(503).json({ status: 'degraded', db: 'error', timestamp: new Date().toISOString() });
+    }
+});
+
 // 1. GET /api/questions (Sanitized - NO ANSWERS)
 app.get('/api/questions', (req, res) => {
     const sanitizedQuestions = questions.map(q => ({
