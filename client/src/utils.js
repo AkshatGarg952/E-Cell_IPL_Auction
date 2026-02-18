@@ -6,3 +6,22 @@ export const shuffleArray = (array) => {
     }
     return newArray;
 };
+
+export const getApiUrl = () => {
+    let url = import.meta.env.VITE_API_URL || 'http://localhost:8080';
+
+    // Trim whitespace
+    url = url.trim();
+
+    // Check for protocol
+    if (!url.match(/^https?:\/\//)) {
+        if (url.includes('localhost') || url.includes('127.0.0.1')) {
+            url = 'http://' + url;
+        } else {
+            url = 'https://' + url;
+        }
+    }
+
+    // Remove trailing slash if present
+    return url.replace(/\/$/, '');
+};

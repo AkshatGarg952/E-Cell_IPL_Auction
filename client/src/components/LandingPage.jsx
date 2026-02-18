@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 
 
 import logo from '../assets/ecell_logo.jpeg';
+import { getApiUrl } from '../utils';
 
 const LandingPage = () => {
     const [formData, setFormData] = useState({
@@ -33,13 +34,21 @@ const LandingPage = () => {
         setLoading(true);
         try {
             // Register team via local Node server
-            const response = await fetch(`${import.meta.env.VITE_API_URL}/api/register`, {
+            const response = await fetch(`${getApiUrl()}/api/register`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(formData)
             });
 
-            const data = await response.json();
+            let data;
+            const contentType = response.headers.get("content-type");
+            if (contentType && contentType.indexOf("application/json") !== -1) {
+                data = await response.json();
+            } else {
+                // If response is not JSON (e.g. 404 HTML), throw meaningful error
+                const text = await response.text();
+                throw new Error(`Server Error (${response.status}): ${text.slice(0, 100)}...`);
+            }
 
             if (response.ok) {
                 // Store team ID and SESSION TOKEN for the quiz session
@@ -55,7 +64,7 @@ const LandingPage = () => {
             }
         } catch (error) {
             console.error("Error registering team: ", error);
-            alert(`Error: ${error.message}. Is the backend server running on port 5000?`);
+            alert(`Error: ${error.message}`);
         } finally {
             setLoading(false);
         }

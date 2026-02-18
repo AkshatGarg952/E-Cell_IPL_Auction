@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 import { AnimatePresence } from 'framer-motion';
-import { shuffleArray } from '../utils';
+import { shuffleArray, getApiUrl } from '../utils';
 
 
 import logo from '../assets/ecell_logo.jpeg';
@@ -78,7 +78,7 @@ const QuizPage = () => {
             if (!teamId || !sessionToken) return; // Should be handled by initQuiz logic
 
             try {
-                const res = await fetch(`${import.meta.env.VITE_API_URL}/api/heartbeat`, {
+                const res = await fetch(`${getApiUrl()}/api/heartbeat`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ teamId, sessionToken })
@@ -138,7 +138,7 @@ const QuizPage = () => {
 
             try {
                 // 1. Get/Set Start Time from Server
-                const res = await fetch(`${import.meta.env.VITE_API_URL}/api/start-quiz`, {
+                const res = await fetch(`${getApiUrl()}/api/start-quiz`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ teamId })
@@ -164,7 +164,7 @@ const QuizPage = () => {
 
                 // 2. Load Questions & Restore State
                 // Fetch questions from server
-                const qRes = await fetch(`${import.meta.env.VITE_API_URL}/api/questions`);
+                const qRes = await fetch(`${getApiUrl()}/api/questions`);
                 if (!qRes.ok) throw new Error("Failed to fetch questions");
                 const serverQuestions = await qRes.json();
 
@@ -272,7 +272,7 @@ const QuizPage = () => {
         if (teamId) {
             try {
                 // Send to local Node server
-                const response = await fetch(`${import.meta.env.VITE_API_URL}/api/submit`, {
+                const response = await fetch(`${getApiUrl()}/api/submit`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(payload)

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { getApiUrl } from '../utils';
 
 const AdminDashboard = () => {
     const [teams, setTeams] = useState([]);
@@ -12,13 +13,13 @@ const AdminDashboard = () => {
 
         const fetchLeaderboard = async () => {
             try {
-                const response = await fetch(`${import.meta.env.VITE_API_URL}/api/leaderboard`);
+                const response = await fetch(`${getApiUrl()}/api/leaderboard`);
                 const data = await response.json();
                 setTeams(data);
                 setLoading(false);
             } catch (err) {
                 console.error("Error fetching teams:", err);
-                setError("Failed to connect to backend server (localhost:5000).");
+                setError(`Failed to connect to backend: ${err.message}`);
                 setLoading(false);
             }
         };
