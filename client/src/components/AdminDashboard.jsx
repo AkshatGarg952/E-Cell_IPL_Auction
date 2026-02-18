@@ -1,36 +1,34 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { getApiUrl } from '../utils';
 
 const AdminDashboard = () => {
     const [teams, setTeams] = useState([]);
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
     const [isAuthenticated, setIsAuthenticated] = useState(false);
     const [password, setPassword] = useState('');
+    const [lastUpdated, setLastUpdated] = useState(null);
+
+    const fetchLeaderboard = useCallback(async () => {
+        setLoading(true);
+        setError(null);
+        try {
+            const response = await fetch(`${getApiUrl()}/api/leaderboard`);
+            const data = await response.json();
+            setTeams(data);
+            setLastUpdated(new Date());
+        } catch (err) {
+            console.error("Error fetching teams:", err);
+            setError(`Failed to connect to backend: ${err.message}`);
+        } finally {
+            setLoading(false);
+        }
+    }, []);
 
     useEffect(() => {
         if (!isAuthenticated) return;
-
-        const fetchLeaderboard = async () => {
-            try {
-                const response = await fetch(`${getApiUrl()}/api/leaderboard`);
-                const data = await response.json();
-                setTeams(data);
-                setLoading(false);
-            } catch (err) {
-                console.error("Error fetching teams:", err);
-                setError(`Failed to connect to backend: ${err.message}`);
-                setLoading(false);
-            }
-        };
-
-        // Initial fetch
         fetchLeaderboard();
-
-        // Poll every 5 seconds
-        const interval = setInterval(fetchLeaderboard, 5000);
-        return () => clearInterval(interval);
-    }, [isAuthenticated]);
+    }, [isAuthenticated, fetchLeaderboard]);
 
     const handleLogin = (e) => {
         e.preventDefault();
@@ -40,6 +38,13 @@ const AdminDashboard = () => {
         } else {
             alert("Invalid Password");
         }
+    };
+
+    const formatTimeTaken = (seconds) => {
+        if (seconds === null || seconds === undefined) return '-';
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
     };
 
     if (!isAuthenticated) {
@@ -62,9 +67,26 @@ const AdminDashboard = () => {
 
     return (
         <div className="w-full max-w-7xl mx-auto p-4 mt-10">
-            <h1 className="text-5xl font-extrabold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 drop-shadow-lg relative">
-                Live Leaderboard
-            </h1>
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-10">
+                <h1 className="text-5xl font-extrabold text-center md:text-left text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 drop-shadow-lg relative">
+                    Leaderboard
+                </h1>
+                <div className="flex flex-col sm:flex-row sm:items-center gap-3">
+                    <button
+                        type="button"
+                        onClick={fetchLeaderboard}
+                        disabled={loading}
+                        className={`px-5 py-3 rounded-lg font-bold transition-transform transform ${
+                            loading ? 'bg-gray-600 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-700 hover:scale-105'
+                        } text-white`}
+                    >
+                        {loading ? 'Loading...' : 'Load Leaderboard'}
+                    </button>
+                    <div className="text-xs text-gray-400">
+                        {lastUpdated ? `Last updated: ${lastUpdated.toLocaleString()}` : 'Not loaded yet'}
+                    </div>
+                </div>
+            </div>
 
             {error && (
                 <div className="bg-red-500/20 text-red-200 p-4 rounded-lg mb-8 text-center border border-red-500/50">
@@ -81,10 +103,18 @@ const AdminDashboard = () => {
                             <th className="px-6 py-4 font-semibold">Leader</th>
                             <th className="px-6 py-4 font-semibold">Scholar No.</th>
                             <th className="px-6 py-4 font-semibold text-right">Score</th>
+                            <th className="px-6 py-4 font-semibold text-right">Time Taken</th>
                             <th className="px-6 py-4 font-semibold text-center">Status</th>
                         </tr>
                     </thead>
                     <tbody className="divide-y divide-white/5">
+                        {teams.length === 0 && !loading && (
+                            <tr>
+                                <td className="px-6 py-8 text-center text-gray-400" colSpan={7}>
+                                    No completed teams yet.
+                                </td>
+                            </tr>
+                        )}
                         {teams.map((team, index) => (
                             <tr key={team.id} className="hover:bg-white/5 transition-colors duration-200">
                                 <td className="px-6 py-4">
@@ -100,6 +130,7 @@ const AdminDashboard = () => {
                                 <td className="px-6 py-4">{team.leaderName}</td>
                                 <td className="px-6 py-4 font-mono text-sm">{team.scholarNumber}</td>
                                 <td className="px-6 py-4 font-bold text-yellow-400 text-right text-xl">{team.score || 0}</td>
+                                <td className="px-6 py-4 text-right font-mono text-sm">{formatTimeTaken(team.timeTaken)}</td>
                                 <td className="px-6 py-4 text-center">
                                     <span className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide ${team.status === 'completed' ? 'bg-green-500/20 text-green-400 border border-green-500/30' : 'bg-yellow-500/20 text-yellow-400 border border-yellow-500/30'
                                         }`}>
