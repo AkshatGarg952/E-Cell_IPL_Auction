@@ -1,0 +1,3469 @@
+[
+  {
+    "id": "1771394170471",
+    "teamName": "MI",
+    "leaderName": "Rohit",
+    "scholarNumber": "45",
+    "score": 2,
+    "status": "completed",
+    "startTime": 1771394170522,
+    "answers": {
+      "q3": 1,
+      "q6": 2,
+      "q9": 2,
+      "q1": 0
+    },
+    "timeTaken": 29,
+    "endTime": "2026-02-18T05:56:41.311Z"
+  },
+  {
+    "id": "1771395021665",
+    "teamName": "StressTeam_0",
+    "leaderName": "Leader_0",
+    "scholarNumber": "1000",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021676",
+    "teamName": "StressTeam_1",
+    "leaderName": "Leader_1",
+    "scholarNumber": "1001",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021680",
+    "teamName": "StressTeam_3",
+    "leaderName": "Leader_3",
+    "scholarNumber": "1003",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021682",
+    "teamName": "StressTeam_2",
+    "leaderName": "Leader_2",
+    "scholarNumber": "1002",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021688",
+    "teamName": "StressTeam_4",
+    "leaderName": "Leader_4",
+    "scholarNumber": "1004",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021691",
+    "teamName": "StressTeam_5",
+    "leaderName": "Leader_5",
+    "scholarNumber": "1005",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021694",
+    "teamName": "StressTeam_6",
+    "leaderName": "Leader_6",
+    "scholarNumber": "1006",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021697",
+    "teamName": "StressTeam_7",
+    "leaderName": "Leader_7",
+    "scholarNumber": "1007",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021702",
+    "teamName": "StressTeam_8",
+    "leaderName": "Leader_8",
+    "scholarNumber": "1008",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021706",
+    "teamName": "StressTeam_9",
+    "leaderName": "Leader_9",
+    "scholarNumber": "1009",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021709",
+    "teamName": "StressTeam_10",
+    "leaderName": "Leader_10",
+    "scholarNumber": "10010",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021712",
+    "teamName": "StressTeam_11",
+    "leaderName": "Leader_11",
+    "scholarNumber": "10011",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021715",
+    "teamName": "StressTeam_12",
+    "leaderName": "Leader_12",
+    "scholarNumber": "10012",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021724",
+    "teamName": "StressTeam_13",
+    "leaderName": "Leader_13",
+    "scholarNumber": "10013",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021730",
+    "teamName": "StressTeam_14",
+    "leaderName": "Leader_14",
+    "scholarNumber": "10014",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021735",
+    "teamName": "StressTeam_15",
+    "leaderName": "Leader_15",
+    "scholarNumber": "10015",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021739",
+    "teamName": "StressTeam_16",
+    "leaderName": "Leader_16",
+    "scholarNumber": "10016",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021743",
+    "teamName": "StressTeam_17",
+    "leaderName": "Leader_17",
+    "scholarNumber": "10017",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021746",
+    "teamName": "StressTeam_18",
+    "leaderName": "Leader_18",
+    "scholarNumber": "10018",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021748",
+    "teamName": "StressTeam_19",
+    "leaderName": "Leader_19",
+    "scholarNumber": "10019",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021753",
+    "teamName": "StressTeam_20",
+    "leaderName": "Leader_20",
+    "scholarNumber": "10020",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021755",
+    "teamName": "StressTeam_21",
+    "leaderName": "Leader_21",
+    "scholarNumber": "10021",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021759",
+    "teamName": "StressTeam_22",
+    "leaderName": "Leader_22",
+    "scholarNumber": "10022",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021761",
+    "teamName": "StressTeam_23",
+    "leaderName": "Leader_23",
+    "scholarNumber": "10023",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021763",
+    "teamName": "StressTeam_24",
+    "leaderName": "Leader_24",
+    "scholarNumber": "10024",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021766",
+    "teamName": "StressTeam_25",
+    "leaderName": "Leader_25",
+    "scholarNumber": "10025",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021770",
+    "teamName": "StressTeam_26",
+    "leaderName": "Leader_26",
+    "scholarNumber": "10026",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021772",
+    "teamName": "StressTeam_27",
+    "leaderName": "Leader_27",
+    "scholarNumber": "10027",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021775",
+    "teamName": "StressTeam_28",
+    "leaderName": "Leader_28",
+    "scholarNumber": "10028",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021778",
+    "teamName": "StressTeam_29",
+    "leaderName": "Leader_29",
+    "scholarNumber": "10029",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021782",
+    "teamName": "StressTeam_30",
+    "leaderName": "Leader_30",
+    "scholarNumber": "10030",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021784",
+    "teamName": "StressTeam_31",
+    "leaderName": "Leader_31",
+    "scholarNumber": "10031",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021787",
+    "teamName": "StressTeam_32",
+    "leaderName": "Leader_32",
+    "scholarNumber": "10032",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021789",
+    "teamName": "StressTeam_33",
+    "leaderName": "Leader_33",
+    "scholarNumber": "10033",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021790",
+    "teamName": "StressTeam_34",
+    "leaderName": "Leader_34",
+    "scholarNumber": "10034",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021792",
+    "teamName": "StressTeam_35",
+    "leaderName": "Leader_35",
+    "scholarNumber": "10035",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021794",
+    "teamName": "StressTeam_36",
+    "leaderName": "Leader_36",
+    "scholarNumber": "10036",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021796",
+    "teamName": "StressTeam_38",
+    "leaderName": "Leader_38",
+    "scholarNumber": "10038",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021798",
+    "teamName": "StressTeam_37",
+    "leaderName": "Leader_37",
+    "scholarNumber": "10037",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021800",
+    "teamName": "StressTeam_39",
+    "leaderName": "Leader_39",
+    "scholarNumber": "10039",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021803",
+    "teamName": "StressTeam_40",
+    "leaderName": "Leader_40",
+    "scholarNumber": "10040",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021805",
+    "teamName": "StressTeam_41",
+    "leaderName": "Leader_41",
+    "scholarNumber": "10041",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021807",
+    "teamName": "StressTeam_43",
+    "leaderName": "Leader_43",
+    "scholarNumber": "10043",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021809",
+    "teamName": "StressTeam_42",
+    "leaderName": "Leader_42",
+    "scholarNumber": "10042",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021811",
+    "teamName": "StressTeam_44",
+    "leaderName": "Leader_44",
+    "scholarNumber": "10044",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021812",
+    "teamName": "StressTeam_45",
+    "leaderName": "Leader_45",
+    "scholarNumber": "10045",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021814",
+    "teamName": "StressTeam_46",
+    "leaderName": "Leader_46",
+    "scholarNumber": "10046",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021816",
+    "teamName": "StressTeam_47",
+    "leaderName": "Leader_47",
+    "scholarNumber": "10047",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021819",
+    "teamName": "StressTeam_48",
+    "leaderName": "Leader_48",
+    "scholarNumber": "10048",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395021820",
+    "teamName": "StressTeam_49",
+    "leaderName": "Leader_49",
+    "scholarNumber": "10049",
+    "score": 0,
+    "status": "registered",
+    "startTime": null
+  },
+  {
+    "id": "1771395377810",
+    "teamName": "StressTeam_V2_0",
+    "leaderName": "Leader_0",
+    "scholarNumber": "1000",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395377822,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:09.880Z"
+  },
+  {
+    "id": "1771395377841",
+    "teamName": "StressTeam_V2_1",
+    "leaderName": "Leader_1",
+    "scholarNumber": "1001",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395377914,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.874Z"
+  },
+  {
+    "id": "1771395377844",
+    "teamName": "StressTeam_V2_2",
+    "leaderName": "Leader_2",
+    "scholarNumber": "1002",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395377921,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.601Z"
+  },
+  {
+    "id": "1771395377848",
+    "teamName": "StressTeam_V2_3",
+    "leaderName": "Leader_3",
+    "scholarNumber": "1003",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395377923,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.018Z"
+  },
+  {
+    "id": "1771395377850",
+    "teamName": "StressTeam_V2_4",
+    "leaderName": "Leader_4",
+    "scholarNumber": "1004",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395377933,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.111Z"
+  },
+  {
+    "id": "1771395377858",
+    "teamName": "StressTeam_V2_5",
+    "leaderName": "Leader_5",
+    "scholarNumber": "1005",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395377937,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.558Z"
+  },
+  {
+    "id": "1771395377872",
+    "teamName": "StressTeam_V2_6",
+    "leaderName": "Leader_6",
+    "scholarNumber": "1006",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395377939,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.932Z"
+  },
+  {
+    "id": "1771395377881",
+    "teamName": "StressTeam_V2_7",
+    "leaderName": "Leader_7",
+    "scholarNumber": "1007",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378006,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.783Z"
+  },
+  {
+    "id": "1771395377897",
+    "teamName": "StressTeam_V2_8",
+    "leaderName": "Leader_8",
+    "scholarNumber": "1008",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378010,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.603Z"
+  },
+  {
+    "id": "1771395377908",
+    "teamName": "StressTeam_V2_9",
+    "leaderName": "Leader_9",
+    "scholarNumber": "1009",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378015,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.239Z"
+  },
+  {
+    "id": "1771395377911",
+    "teamName": "StressTeam_V2_10",
+    "leaderName": "Leader_10",
+    "scholarNumber": "10010",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378019,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.117Z"
+  },
+  {
+    "id": "1771395377917",
+    "teamName": "StressTeam_V2_11",
+    "leaderName": "Leader_11",
+    "scholarNumber": "10011",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378021,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.773Z"
+  },
+  {
+    "id": "1771395377942",
+    "teamName": "StressTeam_V2_13",
+    "leaderName": "Leader_13",
+    "scholarNumber": "10013",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378040,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.097Z"
+  },
+  {
+    "id": "1771395377944",
+    "teamName": "StressTeam_V2_12",
+    "leaderName": "Leader_12",
+    "scholarNumber": "10012",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378042,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.404Z"
+  },
+  {
+    "id": "1771395377947",
+    "teamName": "StressTeam_V2_14",
+    "leaderName": "Leader_14",
+    "scholarNumber": "10014",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378048,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.214Z"
+  },
+  {
+    "id": "1771395377950",
+    "teamName": "StressTeam_V2_15",
+    "leaderName": "Leader_15",
+    "scholarNumber": "10015",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378051,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.300Z"
+  },
+  {
+    "id": "1771395377952",
+    "teamName": "StressTeam_V2_17",
+    "leaderName": "Leader_17",
+    "scholarNumber": "10017",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378054,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.303Z"
+  },
+  {
+    "id": "1771395377955",
+    "teamName": "StressTeam_V2_16",
+    "leaderName": "Leader_16",
+    "scholarNumber": "10016",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378057,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.246Z"
+  },
+  {
+    "id": "1771395377959",
+    "teamName": "StressTeam_V2_19",
+    "leaderName": "Leader_19",
+    "scholarNumber": "10019",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378060,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.198Z"
+  },
+  {
+    "id": "1771395377962",
+    "teamName": "StressTeam_V2_18",
+    "leaderName": "Leader_18",
+    "scholarNumber": "10018",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378063,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.870Z"
+  },
+  {
+    "id": "1771395377965",
+    "teamName": "StressTeam_V2_20",
+    "leaderName": "Leader_20",
+    "scholarNumber": "10020",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378065,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.360Z"
+  },
+  {
+    "id": "1771395377967",
+    "teamName": "StressTeam_V2_21",
+    "leaderName": "Leader_21",
+    "scholarNumber": "10021",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378069,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.480Z"
+  },
+  {
+    "id": "1771395377971",
+    "teamName": "StressTeam_V2_22",
+    "leaderName": "Leader_22",
+    "scholarNumber": "10022",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378073,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.305Z"
+  },
+  {
+    "id": "1771395377975",
+    "teamName": "StressTeam_V2_23",
+    "leaderName": "Leader_23",
+    "scholarNumber": "10023",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378075,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.782Z"
+  },
+  {
+    "id": "1771395377978",
+    "teamName": "StressTeam_V2_24",
+    "leaderName": "Leader_24",
+    "scholarNumber": "10024",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378080,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.540Z"
+  },
+  {
+    "id": "1771395377982",
+    "teamName": "StressTeam_V2_25",
+    "leaderName": "Leader_25",
+    "scholarNumber": "10025",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378084,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.411Z"
+  },
+  {
+    "id": "1771395377986",
+    "teamName": "StressTeam_V2_26",
+    "leaderName": "Leader_26",
+    "scholarNumber": "10026",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378086,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.165Z"
+  },
+  {
+    "id": "1771395377990",
+    "teamName": "StressTeam_V2_27",
+    "leaderName": "Leader_27",
+    "scholarNumber": "10027",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378089,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.133Z"
+  },
+  {
+    "id": "1771395377994",
+    "teamName": "StressTeam_V2_29",
+    "leaderName": "Leader_29",
+    "scholarNumber": "10029",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378233,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.779Z"
+  },
+  {
+    "id": "1771395378000",
+    "teamName": "StressTeam_V2_28",
+    "leaderName": "Leader_28",
+    "scholarNumber": "10028",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378235,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.007Z"
+  },
+  {
+    "id": "1771395378003",
+    "teamName": "StressTeam_V2_30",
+    "leaderName": "Leader_30",
+    "scholarNumber": "10030",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378236,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.609Z"
+  },
+  {
+    "id": "1771395378025",
+    "teamName": "StressTeam_V2_51",
+    "leaderName": "Leader_51",
+    "scholarNumber": "10051",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378249,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.685Z"
+  },
+  {
+    "id": "1771395378030",
+    "teamName": "StressTeam_V2_52",
+    "leaderName": "Leader_52",
+    "scholarNumber": "10052",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378251,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.387Z"
+  },
+  {
+    "id": "1771395378033",
+    "teamName": "StressTeam_V2_53",
+    "leaderName": "Leader_53",
+    "scholarNumber": "10053",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378253,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.486Z"
+  },
+  {
+    "id": "1771395378035",
+    "teamName": "StressTeam_V2_54",
+    "leaderName": "Leader_54",
+    "scholarNumber": "10054",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378254,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.756Z"
+  },
+  {
+    "id": "1771395378037",
+    "teamName": "StressTeam_V2_55",
+    "leaderName": "Leader_55",
+    "scholarNumber": "10055",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378256,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.908Z"
+  },
+  {
+    "id": "1771395378091",
+    "teamName": "StressTeam_V2_32",
+    "leaderName": "Leader_32",
+    "scholarNumber": "10032",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378292,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.437Z"
+  },
+  {
+    "id": "1771395378095",
+    "teamName": "StressTeam_V2_31",
+    "leaderName": "Leader_31",
+    "scholarNumber": "10031",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378294,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.640Z"
+  },
+  {
+    "id": "1771395378098",
+    "teamName": "StressTeam_V2_33",
+    "leaderName": "Leader_33",
+    "scholarNumber": "10033",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378296,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:09.962Z"
+  },
+  {
+    "id": "1771395378100",
+    "teamName": "StressTeam_V2_34",
+    "leaderName": "Leader_34",
+    "scholarNumber": "10034",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378299,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.882Z"
+  },
+  {
+    "id": "1771395378102",
+    "teamName": "StressTeam_V2_35",
+    "leaderName": "Leader_35",
+    "scholarNumber": "10035",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378301,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.016Z"
+  },
+  {
+    "id": "1771395378106",
+    "teamName": "StressTeam_V2_36",
+    "leaderName": "Leader_36",
+    "scholarNumber": "10036",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378305,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.846Z"
+  },
+  {
+    "id": "1771395378109",
+    "teamName": "StressTeam_V2_37",
+    "leaderName": "Leader_37",
+    "scholarNumber": "10037",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378318,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.966Z"
+  },
+  {
+    "id": "1771395378113",
+    "teamName": "StressTeam_V2_38",
+    "leaderName": "Leader_38",
+    "scholarNumber": "10038",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378337,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.445Z"
+  },
+  {
+    "id": "1771395378116",
+    "teamName": "StressTeam_V2_39",
+    "leaderName": "Leader_39",
+    "scholarNumber": "10039",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378341,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.160Z"
+  },
+  {
+    "id": "1771395378121",
+    "teamName": "StressTeam_V2_40",
+    "leaderName": "Leader_40",
+    "scholarNumber": "10040",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378343,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.633Z"
+  },
+  {
+    "id": "1771395378130",
+    "teamName": "StressTeam_V2_42",
+    "leaderName": "Leader_42",
+    "scholarNumber": "10042",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378345,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.124Z"
+  },
+  {
+    "id": "1771395378147",
+    "teamName": "StressTeam_V2_41",
+    "leaderName": "Leader_41",
+    "scholarNumber": "10041",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378347,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.557Z"
+  },
+  {
+    "id": "1771395378163",
+    "teamName": "StressTeam_V2_44",
+    "leaderName": "Leader_44",
+    "scholarNumber": "10044",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378350,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:13.095Z"
+  },
+  {
+    "id": "1771395378173",
+    "teamName": "StressTeam_V2_43",
+    "leaderName": "Leader_43",
+    "scholarNumber": "10043",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378352,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.615Z"
+  },
+  {
+    "id": "1771395378192",
+    "teamName": "StressTeam_V2_45",
+    "leaderName": "Leader_45",
+    "scholarNumber": "10045",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378355,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.931Z"
+  },
+  {
+    "id": "1771395378200",
+    "teamName": "StressTeam_V2_46",
+    "leaderName": "Leader_46",
+    "scholarNumber": "10046",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378358,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.832Z"
+  },
+  {
+    "id": "1771395378202",
+    "teamName": "StressTeam_V2_48",
+    "leaderName": "Leader_48",
+    "scholarNumber": "10048",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378361,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:09.895Z"
+  },
+  {
+    "id": "1771395378205",
+    "teamName": "StressTeam_V2_47",
+    "leaderName": "Leader_47",
+    "scholarNumber": "10047",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378363,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.032Z"
+  },
+  {
+    "id": "1771395378207",
+    "teamName": "StressTeam_V2_49",
+    "leaderName": "Leader_49",
+    "scholarNumber": "10049",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378366,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.508Z"
+  },
+  {
+    "id": "1771395378209",
+    "teamName": "StressTeam_V2_50",
+    "leaderName": "Leader_50",
+    "scholarNumber": "10050",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378368,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.361Z"
+  },
+  {
+    "id": "1771395378211",
+    "teamName": "StressTeam_V2_56",
+    "leaderName": "Leader_56",
+    "scholarNumber": "10056",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378370,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.888Z"
+  },
+  {
+    "id": "1771395378213",
+    "teamName": "StressTeam_V2_57",
+    "leaderName": "Leader_57",
+    "scholarNumber": "10057",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378372,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.695Z"
+  },
+  {
+    "id": "1771395378214",
+    "teamName": "StressTeam_V2_58",
+    "leaderName": "Leader_58",
+    "scholarNumber": "10058",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378374,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.036Z"
+  },
+  {
+    "id": "1771395378216",
+    "teamName": "StressTeam_V2_59",
+    "leaderName": "Leader_59",
+    "scholarNumber": "10059",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378376,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.176Z"
+  },
+  {
+    "id": "1771395378219",
+    "teamName": "StressTeam_V2_60",
+    "leaderName": "Leader_60",
+    "scholarNumber": "10060",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378378,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.839Z"
+  },
+  {
+    "id": "1771395378220",
+    "teamName": "StressTeam_V2_61",
+    "leaderName": "Leader_61",
+    "scholarNumber": "10061",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378383,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.250Z"
+  },
+  {
+    "id": "1771395378222",
+    "teamName": "StressTeam_V2_62",
+    "leaderName": "Leader_62",
+    "scholarNumber": "10062",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378398,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.050Z"
+  },
+  {
+    "id": "1771395378223",
+    "teamName": "StressTeam_V2_63",
+    "leaderName": "Leader_63",
+    "scholarNumber": "10063",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378407,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.300Z"
+  },
+  {
+    "id": "1771395378225",
+    "teamName": "StressTeam_V2_65",
+    "leaderName": "Leader_65",
+    "scholarNumber": "10065",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378410,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.373Z"
+  },
+  {
+    "id": "1771395378227",
+    "teamName": "StressTeam_V2_64",
+    "leaderName": "Leader_64",
+    "scholarNumber": "10064",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378412,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.400Z"
+  },
+  {
+    "id": "1771395378229",
+    "teamName": "StressTeam_V2_66",
+    "leaderName": "Leader_66",
+    "scholarNumber": "10066",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378414,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.524Z"
+  },
+  {
+    "id": "1771395378232",
+    "teamName": "StressTeam_V2_67",
+    "leaderName": "Leader_67",
+    "scholarNumber": "10067",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378498,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.448Z"
+  },
+  {
+    "id": "1771395378239",
+    "teamName": "StressTeam_V2_111",
+    "leaderName": "Leader_111",
+    "scholarNumber": "100111",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378502,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.113Z"
+  },
+  {
+    "id": "1771395378241",
+    "teamName": "StressTeam_V2_112",
+    "leaderName": "Leader_112",
+    "scholarNumber": "100112",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378505,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.294Z"
+  },
+  {
+    "id": "1771395378243",
+    "teamName": "StressTeam_V2_113",
+    "leaderName": "Leader_113",
+    "scholarNumber": "100113",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378507,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.189Z"
+  },
+  {
+    "id": "1771395378246",
+    "teamName": "StressTeam_V2_114",
+    "leaderName": "Leader_114",
+    "scholarNumber": "100114",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378510,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.604Z"
+  },
+  {
+    "id": "1771395378248",
+    "teamName": "StressTeam_V2_115",
+    "leaderName": "Leader_115",
+    "scholarNumber": "100115",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378514,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.832Z"
+  },
+  {
+    "id": "1771395378259",
+    "teamName": "StressTeam_V2_121",
+    "leaderName": "Leader_121",
+    "scholarNumber": "100121",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378518,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.957Z"
+  },
+  {
+    "id": "1771395378261",
+    "teamName": "StressTeam_V2_131",
+    "leaderName": "Leader_131",
+    "scholarNumber": "100131",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378522,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.760Z"
+  },
+  {
+    "id": "1771395378263",
+    "teamName": "StressTeam_V2_132",
+    "leaderName": "Leader_132",
+    "scholarNumber": "100132",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378524,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.297Z"
+  },
+  {
+    "id": "1771395378265",
+    "teamName": "StressTeam_V2_133",
+    "leaderName": "Leader_133",
+    "scholarNumber": "100133",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378527,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.202Z"
+  },
+  {
+    "id": "1771395378266",
+    "teamName": "StressTeam_V2_134",
+    "leaderName": "Leader_134",
+    "scholarNumber": "100134",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378528,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.698Z"
+  },
+  {
+    "id": "1771395378268",
+    "teamName": "StressTeam_V2_141",
+    "leaderName": "Leader_141",
+    "scholarNumber": "100141",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378531,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.927Z"
+  },
+  {
+    "id": "1771395378270",
+    "teamName": "StressTeam_V2_142",
+    "leaderName": "Leader_142",
+    "scholarNumber": "100142",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378533,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.554Z"
+  },
+  {
+    "id": "1771395378272",
+    "teamName": "StressTeam_V2_143",
+    "leaderName": "Leader_143",
+    "scholarNumber": "100143",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378534,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.879Z"
+  },
+  {
+    "id": "1771395378274",
+    "teamName": "StressTeam_V2_144",
+    "leaderName": "Leader_144",
+    "scholarNumber": "100144",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378537,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.649Z"
+  },
+  {
+    "id": "1771395378276",
+    "teamName": "StressTeam_V2_151",
+    "leaderName": "Leader_151",
+    "scholarNumber": "100151",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378539,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.724Z"
+  },
+  {
+    "id": "1771395378277",
+    "teamName": "StressTeam_V2_152",
+    "leaderName": "Leader_152",
+    "scholarNumber": "100152",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378541,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.055Z"
+  },
+  {
+    "id": "1771395378279",
+    "teamName": "StressTeam_V2_153",
+    "leaderName": "Leader_153",
+    "scholarNumber": "100153",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378543,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.204Z"
+  },
+  {
+    "id": "1771395378281",
+    "teamName": "StressTeam_V2_154",
+    "leaderName": "Leader_154",
+    "scholarNumber": "100154",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378545,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.313Z"
+  },
+  {
+    "id": "1771395378283",
+    "teamName": "StressTeam_V2_161",
+    "leaderName": "Leader_161",
+    "scholarNumber": "100161",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378546,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.380Z"
+  },
+  {
+    "id": "1771395378285",
+    "teamName": "StressTeam_V2_162",
+    "leaderName": "Leader_162",
+    "scholarNumber": "100162",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378548,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.818Z"
+  },
+  {
+    "id": "1771395378287",
+    "teamName": "StressTeam_V2_163",
+    "leaderName": "Leader_163",
+    "scholarNumber": "100163",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378550,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.643Z"
+  },
+  {
+    "id": "1771395378289",
+    "teamName": "StressTeam_V2_164",
+    "leaderName": "Leader_164",
+    "scholarNumber": "100164",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378551,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.229Z"
+  },
+  {
+    "id": "1771395378416",
+    "teamName": "StressTeam_V2_68",
+    "leaderName": "Leader_68",
+    "scholarNumber": "10068",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378558,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.537Z"
+  },
+  {
+    "id": "1771395378418",
+    "teamName": "StressTeam_V2_69",
+    "leaderName": "Leader_69",
+    "scholarNumber": "10069",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378568,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.468Z"
+  },
+  {
+    "id": "1771395378421",
+    "teamName": "StressTeam_V2_70",
+    "leaderName": "Leader_70",
+    "scholarNumber": "10070",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378581,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.482Z"
+  },
+  {
+    "id": "1771395378423",
+    "teamName": "StressTeam_V2_72",
+    "leaderName": "Leader_72",
+    "scholarNumber": "10072",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378583,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.835Z"
+  },
+  {
+    "id": "1771395378425",
+    "teamName": "StressTeam_V2_71",
+    "leaderName": "Leader_71",
+    "scholarNumber": "10071",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378585,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.572Z"
+  },
+  {
+    "id": "1771395378427",
+    "teamName": "StressTeam_V2_73",
+    "leaderName": "Leader_73",
+    "scholarNumber": "10073",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378587,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.816Z"
+  },
+  {
+    "id": "1771395378430",
+    "teamName": "StressTeam_V2_75",
+    "leaderName": "Leader_75",
+    "scholarNumber": "10075",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378589,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.314Z"
+  },
+  {
+    "id": "1771395378432",
+    "teamName": "StressTeam_V2_74",
+    "leaderName": "Leader_74",
+    "scholarNumber": "10074",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378591,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.422Z"
+  },
+  {
+    "id": "1771395378434",
+    "teamName": "StressTeam_V2_76",
+    "leaderName": "Leader_76",
+    "scholarNumber": "10076",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378592,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.648Z"
+  },
+  {
+    "id": "1771395378437",
+    "teamName": "StressTeam_V2_77",
+    "leaderName": "Leader_77",
+    "scholarNumber": "10077",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378594,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.993Z"
+  },
+  {
+    "id": "1771395378439",
+    "teamName": "StressTeam_V2_78",
+    "leaderName": "Leader_78",
+    "scholarNumber": "10078",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378596,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:09.910Z"
+  },
+  {
+    "id": "1771395378441",
+    "teamName": "StressTeam_V2_79",
+    "leaderName": "Leader_79",
+    "scholarNumber": "10079",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378598,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.921Z"
+  },
+  {
+    "id": "1771395378444",
+    "teamName": "StressTeam_V2_80",
+    "leaderName": "Leader_80",
+    "scholarNumber": "10080",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378601,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.328Z"
+  },
+  {
+    "id": "1771395378447",
+    "teamName": "StressTeam_V2_81",
+    "leaderName": "Leader_81",
+    "scholarNumber": "10081",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378603,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.261Z"
+  },
+  {
+    "id": "1771395378450",
+    "teamName": "StressTeam_V2_82",
+    "leaderName": "Leader_82",
+    "scholarNumber": "10082",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378604,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.233Z"
+  },
+  {
+    "id": "1771395378453",
+    "teamName": "StressTeam_V2_83",
+    "leaderName": "Leader_83",
+    "scholarNumber": "10083",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378606,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.045Z"
+  },
+  {
+    "id": "1771395378455",
+    "teamName": "StressTeam_V2_84",
+    "leaderName": "Leader_84",
+    "scholarNumber": "10084",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378609,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.870Z"
+  },
+  {
+    "id": "1771395378457",
+    "teamName": "StressTeam_V2_85",
+    "leaderName": "Leader_85",
+    "scholarNumber": "10085",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378611,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.636Z"
+  },
+  {
+    "id": "1771395378460",
+    "teamName": "StressTeam_V2_86",
+    "leaderName": "Leader_86",
+    "scholarNumber": "10086",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378613,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.119Z"
+  },
+  {
+    "id": "1771395378463",
+    "teamName": "StressTeam_V2_87",
+    "leaderName": "Leader_87",
+    "scholarNumber": "10087",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378615,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.864Z"
+  },
+  {
+    "id": "1771395378465",
+    "teamName": "StressTeam_V2_88",
+    "leaderName": "Leader_88",
+    "scholarNumber": "10088",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378617,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.558Z"
+  },
+  {
+    "id": "1771395378468",
+    "teamName": "StressTeam_V2_89",
+    "leaderName": "Leader_89",
+    "scholarNumber": "10089",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378619,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.463Z"
+  },
+  {
+    "id": "1771395378470",
+    "teamName": "StressTeam_V2_90",
+    "leaderName": "Leader_90",
+    "scholarNumber": "10090",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378621,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.018Z"
+  },
+  {
+    "id": "1771395378472",
+    "teamName": "StressTeam_V2_91",
+    "leaderName": "Leader_91",
+    "scholarNumber": "10091",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378622,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.984Z"
+  },
+  {
+    "id": "1771395378475",
+    "teamName": "StressTeam_V2_93",
+    "leaderName": "Leader_93",
+    "scholarNumber": "10093",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378624,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.263Z"
+  },
+  {
+    "id": "1771395378478",
+    "teamName": "StressTeam_V2_92",
+    "leaderName": "Leader_92",
+    "scholarNumber": "10092",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378626,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.186Z"
+  },
+  {
+    "id": "1771395378480",
+    "teamName": "StressTeam_V2_94",
+    "leaderName": "Leader_94",
+    "scholarNumber": "10094",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378628,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.239Z"
+  },
+  {
+    "id": "1771395378484",
+    "teamName": "StressTeam_V2_95",
+    "leaderName": "Leader_95",
+    "scholarNumber": "10095",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378630,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.444Z"
+  },
+  {
+    "id": "1771395378486",
+    "teamName": "StressTeam_V2_96",
+    "leaderName": "Leader_96",
+    "scholarNumber": "10096",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378632,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.197Z"
+  },
+  {
+    "id": "1771395378489",
+    "teamName": "StressTeam_V2_97",
+    "leaderName": "Leader_97",
+    "scholarNumber": "10097",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378634,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.114Z"
+  },
+  {
+    "id": "1771395378491",
+    "teamName": "StressTeam_V2_98",
+    "leaderName": "Leader_98",
+    "scholarNumber": "10098",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378636,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:13.112Z"
+  },
+  {
+    "id": "1771395378494",
+    "teamName": "StressTeam_V2_99",
+    "leaderName": "Leader_99",
+    "scholarNumber": "10099",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378743,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.951Z"
+  },
+  {
+    "id": "1771395378638",
+    "teamName": "StressTeam_V2_100",
+    "leaderName": "Leader_100",
+    "scholarNumber": "100100",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378765,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.431Z"
+  },
+  {
+    "id": "1771395378640",
+    "teamName": "StressTeam_V2_101",
+    "leaderName": "Leader_101",
+    "scholarNumber": "100101",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378767,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.671Z"
+  },
+  {
+    "id": "1771395378642",
+    "teamName": "StressTeam_V2_102",
+    "leaderName": "Leader_102",
+    "scholarNumber": "100102",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378768,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.935Z"
+  },
+  {
+    "id": "1771395378644",
+    "teamName": "StressTeam_V2_103",
+    "leaderName": "Leader_103",
+    "scholarNumber": "100103",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378771,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.511Z"
+  },
+  {
+    "id": "1771395378650",
+    "teamName": "StressTeam_V2_104",
+    "leaderName": "Leader_104",
+    "scholarNumber": "100104",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378773,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.547Z"
+  },
+  {
+    "id": "1771395378665",
+    "teamName": "StressTeam_V2_105",
+    "leaderName": "Leader_105",
+    "scholarNumber": "100105",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378777,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:13.214Z"
+  },
+  {
+    "id": "1771395378684",
+    "teamName": "StressTeam_V2_107",
+    "leaderName": "Leader_107",
+    "scholarNumber": "100107",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378779,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.476Z"
+  },
+  {
+    "id": "1771395378691",
+    "teamName": "StressTeam_V2_106",
+    "leaderName": "Leader_106",
+    "scholarNumber": "100106",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378781,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.377Z"
+  },
+  {
+    "id": "1771395378693",
+    "teamName": "StressTeam_V2_108",
+    "leaderName": "Leader_108",
+    "scholarNumber": "100108",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378783,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.357Z"
+  },
+  {
+    "id": "1771395378696",
+    "teamName": "StressTeam_V2_109",
+    "leaderName": "Leader_109",
+    "scholarNumber": "100109",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378785,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.367Z"
+  },
+  {
+    "id": "1771395378697",
+    "teamName": "StressTeam_V2_110",
+    "leaderName": "Leader_110",
+    "scholarNumber": "100110",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378787,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.172Z"
+  },
+  {
+    "id": "1771395378699",
+    "teamName": "StressTeam_V2_116",
+    "leaderName": "Leader_116",
+    "scholarNumber": "100116",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378791,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.728Z"
+  },
+  {
+    "id": "1771395378701",
+    "teamName": "StressTeam_V2_117",
+    "leaderName": "Leader_117",
+    "scholarNumber": "100117",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378794,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.800Z"
+  },
+  {
+    "id": "1771395378703",
+    "teamName": "StressTeam_V2_118",
+    "leaderName": "Leader_118",
+    "scholarNumber": "100118",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378797,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.024Z"
+  },
+  {
+    "id": "1771395378705",
+    "teamName": "StressTeam_V2_119",
+    "leaderName": "Leader_119",
+    "scholarNumber": "100119",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378813,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.637Z"
+  },
+  {
+    "id": "1771395378707",
+    "teamName": "StressTeam_V2_120",
+    "leaderName": "Leader_120",
+    "scholarNumber": "100120",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378814,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.992Z"
+  },
+  {
+    "id": "1771395378709",
+    "teamName": "StressTeam_V2_122",
+    "leaderName": "Leader_122",
+    "scholarNumber": "100122",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378816,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.962Z"
+  },
+  {
+    "id": "1771395378711",
+    "teamName": "StressTeam_V2_123",
+    "leaderName": "Leader_123",
+    "scholarNumber": "100123",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378819,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:13.503Z"
+  },
+  {
+    "id": "1771395378714",
+    "teamName": "StressTeam_V2_124",
+    "leaderName": "Leader_124",
+    "scholarNumber": "100124",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378821,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.988Z"
+  },
+  {
+    "id": "1771395378716",
+    "teamName": "StressTeam_V2_125",
+    "leaderName": "Leader_125",
+    "scholarNumber": "100125",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378824,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.517Z"
+  },
+  {
+    "id": "1771395378718",
+    "teamName": "StressTeam_V2_127",
+    "leaderName": "Leader_127",
+    "scholarNumber": "100127",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378826,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.440Z"
+  },
+  {
+    "id": "1771395378721",
+    "teamName": "StressTeam_V2_126",
+    "leaderName": "Leader_126",
+    "scholarNumber": "100126",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378828,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.514Z"
+  },
+  {
+    "id": "1771395378723",
+    "teamName": "StressTeam_V2_128",
+    "leaderName": "Leader_128",
+    "scholarNumber": "100128",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378831,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.162Z"
+  },
+  {
+    "id": "1771395378725",
+    "teamName": "StressTeam_V2_129",
+    "leaderName": "Leader_129",
+    "scholarNumber": "100129",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378833,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.828Z"
+  },
+  {
+    "id": "1771395378727",
+    "teamName": "StressTeam_V2_130",
+    "leaderName": "Leader_130",
+    "scholarNumber": "100130",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378836,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.962Z"
+  },
+  {
+    "id": "1771395378729",
+    "teamName": "StressTeam_V2_135",
+    "leaderName": "Leader_135",
+    "scholarNumber": "100135",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378838,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:13.060Z"
+  },
+  {
+    "id": "1771395378731",
+    "teamName": "StressTeam_V2_136",
+    "leaderName": "Leader_136",
+    "scholarNumber": "100136",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378839,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.925Z"
+  },
+  {
+    "id": "1771395378733",
+    "teamName": "StressTeam_V2_137",
+    "leaderName": "Leader_137",
+    "scholarNumber": "100137",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378842,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.734Z"
+  },
+  {
+    "id": "1771395378735",
+    "teamName": "StressTeam_V2_138",
+    "leaderName": "Leader_138",
+    "scholarNumber": "100138",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378844,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.028Z"
+  },
+  {
+    "id": "1771395378737",
+    "teamName": "StressTeam_V2_139",
+    "leaderName": "Leader_139",
+    "scholarNumber": "100139",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378846,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.415Z"
+  },
+  {
+    "id": "1771395378739",
+    "teamName": "StressTeam_V2_140",
+    "leaderName": "Leader_140",
+    "scholarNumber": "100140",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378847,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.800Z"
+  },
+  {
+    "id": "1771395378741",
+    "teamName": "StressTeam_V2_145",
+    "leaderName": "Leader_145",
+    "scholarNumber": "100145",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378942,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.638Z"
+  },
+  {
+    "id": "1771395378850",
+    "teamName": "StressTeam_V2_146",
+    "leaderName": "Leader_146",
+    "scholarNumber": "100146",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378957,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.552Z"
+  },
+  {
+    "id": "1771395378852",
+    "teamName": "StressTeam_V2_147",
+    "leaderName": "Leader_147",
+    "scholarNumber": "100147",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378960,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.641Z"
+  },
+  {
+    "id": "1771395378854",
+    "teamName": "StressTeam_V2_149",
+    "leaderName": "Leader_149",
+    "scholarNumber": "100149",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378962,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.097Z"
+  },
+  {
+    "id": "1771395378857",
+    "teamName": "StressTeam_V2_148",
+    "leaderName": "Leader_148",
+    "scholarNumber": "100148",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378965,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.194Z"
+  },
+  {
+    "id": "1771395378859",
+    "teamName": "StressTeam_V2_150",
+    "leaderName": "Leader_150",
+    "scholarNumber": "100150",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378967,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.279Z"
+  },
+  {
+    "id": "1771395378861",
+    "teamName": "StressTeam_V2_155",
+    "leaderName": "Leader_155",
+    "scholarNumber": "100155",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378969,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:13.010Z"
+  },
+  {
+    "id": "1771395378863",
+    "teamName": "StressTeam_V2_156",
+    "leaderName": "Leader_156",
+    "scholarNumber": "100156",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378972,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.569Z"
+  },
+  {
+    "id": "1771395378865",
+    "teamName": "StressTeam_V2_157",
+    "leaderName": "Leader_157",
+    "scholarNumber": "100157",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378975,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.105Z"
+  },
+  {
+    "id": "1771395378867",
+    "teamName": "StressTeam_V2_158",
+    "leaderName": "Leader_158",
+    "scholarNumber": "100158",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378977,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.823Z"
+  },
+  {
+    "id": "1771395378869",
+    "teamName": "StressTeam_V2_159",
+    "leaderName": "Leader_159",
+    "scholarNumber": "100159",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378981,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.714Z"
+  },
+  {
+    "id": "1771395378871",
+    "teamName": "StressTeam_V2_160",
+    "leaderName": "Leader_160",
+    "scholarNumber": "100160",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378983,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.025Z"
+  },
+  {
+    "id": "1771395378873",
+    "teamName": "StressTeam_V2_165",
+    "leaderName": "Leader_165",
+    "scholarNumber": "100165",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378986,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.448Z"
+  },
+  {
+    "id": "1771395378875",
+    "teamName": "StressTeam_V2_166",
+    "leaderName": "Leader_166",
+    "scholarNumber": "100166",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378988,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:13.199Z"
+  },
+  {
+    "id": "1771395378878",
+    "teamName": "StressTeam_V2_167",
+    "leaderName": "Leader_167",
+    "scholarNumber": "100167",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378990,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.937Z"
+  },
+  {
+    "id": "1771395378880",
+    "teamName": "StressTeam_V2_168",
+    "leaderName": "Leader_168",
+    "scholarNumber": "100168",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378992,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.353Z"
+  },
+  {
+    "id": "1771395378882",
+    "teamName": "StressTeam_V2_169",
+    "leaderName": "Leader_169",
+    "scholarNumber": "100169",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378994,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.938Z"
+  },
+  {
+    "id": "1771395378883",
+    "teamName": "StressTeam_V2_170",
+    "leaderName": "Leader_170",
+    "scholarNumber": "100170",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378996,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.407Z"
+  },
+  {
+    "id": "1771395378885",
+    "teamName": "StressTeam_V2_172",
+    "leaderName": "Leader_172",
+    "scholarNumber": "100172",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395378998,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.328Z"
+  },
+  {
+    "id": "1771395378887",
+    "teamName": "StressTeam_V2_171",
+    "leaderName": "Leader_171",
+    "scholarNumber": "100171",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379000,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.654Z"
+  },
+  {
+    "id": "1771395378889",
+    "teamName": "StressTeam_V2_173",
+    "leaderName": "Leader_173",
+    "scholarNumber": "100173",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379001,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.783Z"
+  },
+  {
+    "id": "1771395378891",
+    "teamName": "StressTeam_V2_174",
+    "leaderName": "Leader_174",
+    "scholarNumber": "100174",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379003,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.598Z"
+  },
+  {
+    "id": "1771395378893",
+    "teamName": "StressTeam_V2_175",
+    "leaderName": "Leader_175",
+    "scholarNumber": "100175",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379006,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.234Z"
+  },
+  {
+    "id": "1771395378895",
+    "teamName": "StressTeam_V2_176",
+    "leaderName": "Leader_176",
+    "scholarNumber": "100176",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379009,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.056Z"
+  },
+  {
+    "id": "1771395378897",
+    "teamName": "StressTeam_V2_177",
+    "leaderName": "Leader_177",
+    "scholarNumber": "100177",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379011,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:13.014Z"
+  },
+  {
+    "id": "1771395378899",
+    "teamName": "StressTeam_V2_178",
+    "leaderName": "Leader_178",
+    "scholarNumber": "100178",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379013,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.590Z"
+  },
+  {
+    "id": "1771395378901",
+    "teamName": "StressTeam_V2_179",
+    "leaderName": "Leader_179",
+    "scholarNumber": "100179",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379015,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.842Z"
+  },
+  {
+    "id": "1771395378903",
+    "teamName": "StressTeam_V2_180",
+    "leaderName": "Leader_180",
+    "scholarNumber": "100180",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379017,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.579Z"
+  },
+  {
+    "id": "1771395378905",
+    "teamName": "StressTeam_V2_182",
+    "leaderName": "Leader_182",
+    "scholarNumber": "100182",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379019,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.004Z"
+  },
+  {
+    "id": "1771395378907",
+    "teamName": "StressTeam_V2_181",
+    "leaderName": "Leader_181",
+    "scholarNumber": "100181",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379021,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.449Z"
+  },
+  {
+    "id": "1771395378909",
+    "teamName": "StressTeam_V2_183",
+    "leaderName": "Leader_183",
+    "scholarNumber": "100183",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379026,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.158Z"
+  },
+  {
+    "id": "1771395378917",
+    "teamName": "StressTeam_V2_184",
+    "leaderName": "Leader_184",
+    "scholarNumber": "100184",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379028,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.302Z"
+  },
+  {
+    "id": "1771395378928",
+    "teamName": "StressTeam_V2_185",
+    "leaderName": "Leader_185",
+    "scholarNumber": "100185",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379084,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.235Z"
+  },
+  {
+    "id": "1771395379030",
+    "teamName": "StressTeam_V2_186",
+    "leaderName": "Leader_186",
+    "scholarNumber": "100186",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379099,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.370Z"
+  },
+  {
+    "id": "1771395379032",
+    "teamName": "StressTeam_V2_188",
+    "leaderName": "Leader_188",
+    "scholarNumber": "100188",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379101,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.101Z"
+  },
+  {
+    "id": "1771395379035",
+    "teamName": "StressTeam_V2_187",
+    "leaderName": "Leader_187",
+    "scholarNumber": "100187",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379103,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.606Z"
+  },
+  {
+    "id": "1771395379037",
+    "teamName": "StressTeam_V2_190",
+    "leaderName": "Leader_190",
+    "scholarNumber": "100190",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379105,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.191Z"
+  },
+  {
+    "id": "1771395379039",
+    "teamName": "StressTeam_V2_189",
+    "leaderName": "Leader_189",
+    "scholarNumber": "100189",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379107,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.675Z"
+  },
+  {
+    "id": "1771395379041",
+    "teamName": "StressTeam_V2_192",
+    "leaderName": "Leader_192",
+    "scholarNumber": "100192",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379109,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:10.723Z"
+  },
+  {
+    "id": "1771395379043",
+    "teamName": "StressTeam_V2_191",
+    "leaderName": "Leader_191",
+    "scholarNumber": "100191",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379111,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.513Z"
+  },
+  {
+    "id": "1771395379045",
+    "teamName": "StressTeam_V2_193",
+    "leaderName": "Leader_193",
+    "scholarNumber": "100193",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379113,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:12.364Z"
+  },
+  {
+    "id": "1771395379046",
+    "teamName": "StressTeam_V2_194",
+    "leaderName": "Leader_194",
+    "scholarNumber": "100194",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379115,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.361Z"
+  },
+  {
+    "id": "1771395379049",
+    "teamName": "StressTeam_V2_195",
+    "leaderName": "Leader_195",
+    "scholarNumber": "100195",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379117,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.575Z"
+  },
+  {
+    "id": "1771395379051",
+    "teamName": "StressTeam_V2_196",
+    "leaderName": "Leader_196",
+    "scholarNumber": "100196",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379119,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.309Z"
+  },
+  {
+    "id": "1771395379053",
+    "teamName": "StressTeam_V2_198",
+    "leaderName": "Leader_198",
+    "scholarNumber": "100198",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379121,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:13.025Z"
+  },
+  {
+    "id": "1771395379065",
+    "teamName": "StressTeam_V2_197",
+    "leaderName": "Leader_197",
+    "scholarNumber": "100197",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379123,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.731Z"
+  },
+  {
+    "id": "1771395379080",
+    "teamName": "StressTeam_V2_199",
+    "leaderName": "Leader_199",
+    "scholarNumber": "100199",
+    "score": 1,
+    "status": "completed",
+    "startTime": 1771395379125,
+    "answers": {
+      "q1": 1,
+      "q2": 0
+    },
+    "timeTaken": 120,
+    "endTime": "2026-02-18T06:17:11.845Z"
+  }
+]
