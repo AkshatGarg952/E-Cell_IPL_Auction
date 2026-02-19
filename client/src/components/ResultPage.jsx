@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import { motion } from 'framer-motion';
 
 import logo from '../assets/ecell_logo.jpeg';
 
@@ -16,12 +15,7 @@ const ResultPage = () => {
 
     return (
         <div className="flex flex-col items-center justify-center text-center p-8 min-h-[60vh] relative z-10">
-            <motion.div
-                initial={{ scale: 0.8, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1 }}
-                transition={{ type: "spring", stiffness: 200, damping: 20 }}
-                className="bg-black/60 backdrop-blur-xl p-12 rounded-none border-y-4 border-yellow-500 shadow-[0_0_50px_rgba(255,215,0,0.2)] max-w-lg w-full relative"
-            >
+            <div className="bg-black/60 backdrop-blur-xl p-12 rounded-none border-y-4 border-yellow-500 shadow-[0_0_50px_rgba(255,215,0,0.2)] max-w-lg w-full relative">
                 {/* E-Cell Logo */}
                 <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-24 h-24 bg-black border-4 border-yellow-500 rounded-full flex items-center justify-center shadow-lg shadow-yellow-500/20 overflow-hidden">
                     <img src={logo} alt="E-Cell" className="w-full h-full object-cover" />
@@ -45,7 +39,7 @@ const ResultPage = () => {
                         Session ID: <span className="text-white">{localStorage.getItem('teamId')?.slice(0, 8) || 'UNKNOWN'}</span>
                     </div>
                 </div>
-            </motion.div>
+            </div>
         </div>
     );
 };

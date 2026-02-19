@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 
-import { AnimatePresence } from 'framer-motion';
 import { shuffleArray, getApiUrl } from '../utils';
 
 
@@ -278,7 +277,7 @@ const QuizPage = () => {
 
     if (loading) return (
         <div className="flex items-center justify-center h-screen">
-            <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-purple-500"></div>
+            <div className="text-gray-300 text-lg font-semibold">Loading quiz...</div>
         </div>
     );
 
@@ -320,7 +319,7 @@ const QuizPage = () => {
                 {/* Digital Timer */}
                 <div className="flex flex-col items-end">
                     <span className="text-yellow-500 text-xs font-bold tracking-widest uppercase mb-1">Time Remaining</span>
-                    <div className={`text-4xl font-mono font-black tracking-widest ${timeLeft < 60 ? 'text-red-500 animate-pulse' : 'text-white'}`} style={{ textShadow: '0 0 10px currentColor' }}>
+                    <div className={`text-4xl font-mono font-black tracking-widest ${timeLeft < 60 ? 'text-red-500' : 'text-white'}`} style={{ textShadow: '0 0 10px currentColor' }}>
                         {formatTime(timeLeft)}
                     </div>
                 </div>
@@ -328,9 +327,8 @@ const QuizPage = () => {
 
             {/* Main Auction Stage */}
             <div className="w-full flex justify-center mb-10">
-                <AnimatePresence mode="wait">
-                    {currentQuestion && (
-                        <div className="w-full">
+                {currentQuestion && (
+                    <div className="w-full">
                             {/* Question "Asset" Card */}
                             <div className="bg-gradient-to-br from-gray-900 to-black border border-white/10 p-8 mb-8 relative overflow-hidden group">
                                 <div className="absolute top-0 left-0 w-1 h-full bg-yellow-500"></div>
@@ -371,9 +369,8 @@ const QuizPage = () => {
                                     </button>
                                 ))}
                             </div>
-                        </div>
-                    )}
-                </AnimatePresence>
+                    </div>
+                )}
             </div>
 
             {/* Navigation Paddle */}

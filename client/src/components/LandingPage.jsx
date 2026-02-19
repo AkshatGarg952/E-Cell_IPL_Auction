@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { motion } from 'framer-motion';
 
 
 import logo from '../assets/ecell_logo.jpeg';
@@ -71,14 +70,12 @@ const LandingPage = () => {
     };
 
     return (
-        <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
+        <div
             className="bg-black/40 backdrop-blur-xl p-10 rounded-xl shadow-2xl max-w-2xl w-full border border-yellow-500/30 relative overflow-hidden"
             style={{ boxShadow: '0 0 40px rgba(255, 215, 0, 0.1)' }}
         >
             {/* Gold Glow */}
-            <div className="absolute top-0 right-0 w-32 h-32 bg-yellow-500/20 rounded-full mix-blend-screen filter blur-3xl opacity-30 animate-pulse"></div>
+            <div className="absolute top-0 right-0 w-32 h-32 bg-yellow-500/20 rounded-full mix-blend-screen filter blur-3xl opacity-30"></div>
 
             <div className="flex flex-col items-center mb-8">
                 {/* E-Cell Logo */}
@@ -92,12 +89,7 @@ const LandingPage = () => {
 
             {!showForm ? (
                 // --- INSTRUCTIONS VIEW ---
-                <motion.div
-                    initial={{ opacity: 0, x: -20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    exit={{ opacity: 0, x: 20 }}
-                    className="space-y-6 text-white"
-                >
+                <div className="space-y-6 text-white">
                     <div className="bg-white/5 border-l-4 border-white/40 p-4">
                         <h3 className="text-xl font-bold text-white mb-2 uppercase tracking-wide">How To Take The Quiz</h3>
                         <ul className="space-y-2 text-sm text-gray-300 list-disc list-inside">
@@ -120,12 +112,10 @@ const LandingPage = () => {
                     >
                         Enter Auction Hall
                     </button>
-                </motion.div>
+                </div>
             ) : (
                 // --- FORM VIEW ---
-                <motion.form
-                    initial={{ opacity: 0, x: 20 }}
-                    animate={{ opacity: 1, x: 0 }}
+                <form
                     onSubmit={handleSubmit}
                     className="space-y-6 relative z-10"
                 >
@@ -183,7 +173,7 @@ const LandingPage = () => {
                             {loading ? 'Processing...' : 'Register Team'}
                         </button>
                     </div>
-                </motion.form>
+                </form>
             )}
             <div className="absolute bottom-4 right-4">
                 <span className="text-[10px] uppercase tracking-[0.35em] text-yellow-500/80 bg-black/60 border border-yellow-500/40 px-3 py-1 shadow-[0_0_12px_rgba(255,215,0,0.25)]">
@@ -191,7 +181,7 @@ const LandingPage = () => {
                 </span>
             </div>
 
-        </motion.div>
+        </div>
     );
 };
 
