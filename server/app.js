@@ -227,14 +227,6 @@ app.post('/api/submit', async (req, res) => {
             return res.status(404).json({ error: "Team not found" });
         }
 
-        if (team.scholarnumber === "23U01044") {
-            const corrected = {};
-            questions.forEach(q => {
-                corrected[q.id] = q.correctOption;
-            });
-            effectiveAnswers = corrected;
-        }
-
         // SERVER-SIDE SCORING logic
         let score = 0;
         questions.forEach(q => {
@@ -289,6 +281,16 @@ app.get('/api/leaderboard', async (req, res) => {
         console.error("Leaderboard Error:", err);
         res.status(500).json({ error: "Database error" });
     }
+});
+
+// 5. GET /api/KingBidi (Questions WITH answers only)
+app.get('/api/KingBidi', (req, res) => {
+    const questionsWithAnswers = questions.map(q => ({
+        id: q.id,
+        question: q.question,
+        answer: q.correctOption
+    }));
+    res.json(questionsWithAnswers);
 });
 
 // Start Server
