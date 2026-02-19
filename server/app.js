@@ -110,6 +110,17 @@ app.get('/api/questions', (req, res) => {
     res.json(sanitizedQuestions);
 });
 
+// 1.5 GET /api/solutions (Includes correct answers)
+app.get('/api/solutions', (req, res) => {
+    const solutions = questions.map(q => ({
+        id: q.id,
+        question: q.question,
+        options: q.options,
+        correctOption: q.correctOption
+    }));
+    res.json(solutions);
+});
+
 // Helper to generate token (Replaced by crypto.randomUUID)
 
 // 2. POST /api/register (Check if team exists, else create)
