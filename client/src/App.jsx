@@ -19,9 +19,6 @@ function App() {
           <Route path="/admin" element={<AdminDashboard />} />
         </Routes>
 
-        <footer className="fixed bottom-4 text-xs text-white/30 text-center w-full pointer-events-none">
-          Created by Akshat Garg, 3rd Year, ECE
-        </footer>
       </div>
     </>
   );

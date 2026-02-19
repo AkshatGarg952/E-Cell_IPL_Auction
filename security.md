@@ -1,47 +1,53 @@
-# Security and Anti-Cheating Guide
+# Security and Anti-Cheating Guide (Plain Language)
 
-This document describes the controls implemented in this project for the IPL Auction quiz. It focuses on on-device digital cheating and explains the limits so expectations are clear for desktop and mobile users.
+This page explains, in simple terms, what the system checks and what user actions can cause problems during the IPL Auction quiz.
 
-## What Is Enforced On The Server
+## What The Server Enforces
 
-- The question API returns only the question text and options. Correct answers are stored only on the server.
-- Scoring is computed on the server during submission. The client cannot send a score.
-- The quiz start time is created once on the server per team and reused on reloads. Refreshing does not reset the start time.
-- Each team has a session token. When a team logs in again, the server rotates the token and the older session becomes invalid.
+- The server keeps the correct answers. The app never receives them.
+- The score is calculated on the server when you submit. The app cannot send a score.
+- The quiz start time is saved once per team. Refreshing does not reset the timer.
+- Each team gets a session token. If the same team logs in again, the old session is kicked out.
 
-## What Is Enforced In The Client
+## What The App Enforces
 
-- A five-minute countdown runs in the browser but is anchored to the server start time. The quiz auto-submits when the timer reaches zero.
-- Tab switching or losing focus is detected. The first two violations show warnings. The third is a final warning. The next violation triggers auto-submit.
+- A 5-minute countdown runs in the browser, but the time is based on the server start time.
 - Back navigation is blocked during the quiz to reduce accidental exits.
-- Copy, right-click, and text selection are disabled inside the quiz view to make casual copy/paste harder.
-- Question order is shuffled once and saved in local storage. Reloads restore the same order and the same current question.
-- Answers are saved to local storage as the user selects options so a reload does not allow a reset.
-- A heartbeat runs roughly every 15 to 20 seconds. If another device logs in with the same team, the earlier device is logged out.
+- Copy, right-click, and text selection are disabled inside the quiz view.
+- Question order is shuffled once and stored locally so it does not reset on refresh.
+- Answers are saved locally as you click options so progress is restored after a reload.
+- A heartbeat runs every ~15 to 20 seconds to check for another device using the same team.
 
-## Mobile Behavior
+## Actions That Can Cause Trouble (With Examples)
 
-- Switching apps, opening the app switcher, or backgrounding the browser can trigger the same focus and visibility checks as tab switching.
-- Incoming calls or notification overlays may count as a focus change and consume a warning.
-- Long-press selection and copy actions are blocked in the quiz container where the browser respects selection settings.
+- **Logging in on a second device:** The first device will be logged out within about 15 to 20 seconds.
+  Example: You open the quiz on your phone, then also log in on a laptop. The phone session gets kicked out.
 
-## Examples
+- **Using Back/Forward in the browser:** The app blocks it and shows a warning.
+  Example: You tap the back button to check the registration page. The quiz blocks the navigation.
 
-1. A user opens WhatsApp during the quiz and returns. They receive a warning. After three warnings, the next app switch auto-submits the quiz.
-2. A user refreshes the page on question 4. The timer resumes based on the original server start time and the same question order is restored.
-3. A user logs in on a second phone. Within about 15 to 20 seconds the first phone is logged out because the session token has rotated.
+- **Refreshing the page:** Your answers and question order return, but the timer does not reset.
+  Example: You refresh on question 4. The same question order loads, but you have less time left.
 
-## Known Limitations
+- **Leaving the quiz for a long time:** Time keeps running on the server even if you are away.
+  Example: You switch apps for 3 minutes. When you return, the remaining time is 3 minutes less.
 
-- The server does not currently reject late submissions. The timer is enforced by the client, so a modified client could bypass it.
-- There is no way to detect a second device that is not logged in (for example, someone searching answers on another phone).
-- Physical collaboration in the same room cannot be detected without in-person proctoring.
-- Screen sharing, casting, photos, or screenshots are not blocked.
-- Clearing local storage or registering a new team name can reset the local question order and answers.
-- The admin dashboard uses a client-side password prompt. It should only be used on trusted admin devices.
+- **Clearing site data or local storage:** Your saved answers and position are erased.
+  Example: You clear browser data or use a private window. Your quiz state is lost.
 
-## Operational Notes
+- **Poor or lost internet during submission:** The app saves an offline copy and shows an error.
+  Example: Your network drops when you submit. The app stores your answers locally and asks you to take a photo.
 
-- Use a single device and keep the quiz in the foreground for the full five minutes.
-- Turn on Do Not Disturb on mobile to avoid accidental focus changes.
-- If a device crashes or reloads, re-open the quiz quickly. Your progress and order will be restored on that device.
+## What Is NOT Enforced
+
+- There are **no tab-switch warnings** or auto-submissions for changing tabs.
+- The system cannot detect if you use another device to search for answers.
+- Screen recording, screenshots, or photos are not blocked.
+- In-person collaboration cannot be detected without a proctor.
+
+## Quick Tips For Users
+
+- Use one device only.
+- Keep the quiz open to avoid losing time.
+- Avoid refreshing unless you must.
+- Make sure your internet is stable before you submit.

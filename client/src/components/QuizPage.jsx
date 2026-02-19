@@ -32,43 +32,6 @@ const QuizPage = () => {
         return () => window.removeEventListener('popstate', handlePopState);
     }, []);
 
-    // Tab Switch / Blur Detection
-    useEffect(() => {
-        let warningCount = 0;
-        const maxWarnings = 3;
-
-        const handleVisibilityChange = () => {
-            if (document.hidden) {
-                warningCount++;
-                checkWarnings();
-            }
-        };
-
-        const handleBlur = () => {
-            warningCount++;
-            checkWarnings();
-        };
-
-        const checkWarnings = () => {
-            if (warningCount < maxWarnings) {
-                alert(`Warning ${warningCount}/${maxWarnings}: Tab switching or minimizing is prohibited!`);
-            } else if (warningCount === maxWarnings) {
-                alert(`Final Warning! Next violation will submit the quiz.`);
-            } else {
-                alert("Violation limit exceeded. Submitting quiz...");
-                handleSubmitQuiz(true);
-            }
-        };
-
-        document.addEventListener("visibilitychange", handleVisibilityChange);
-        window.addEventListener("blur", handleBlur);
-
-        return () => {
-            document.removeEventListener("visibilitychange", handleVisibilityChange);
-            window.removeEventListener("blur", handleBlur);
-        };
-    }, []);
-
     // Session Heartbeat (Single Active Device)
     useEffect(() => {
         const checkSession = async () => {

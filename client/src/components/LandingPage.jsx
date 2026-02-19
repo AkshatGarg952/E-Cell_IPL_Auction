@@ -99,28 +99,18 @@ const LandingPage = () => {
                     className="space-y-6 text-white"
                 >
                     <div className="bg-white/5 border-l-4 border-white/40 p-4">
-                        <h3 className="text-xl font-bold text-white mb-2 uppercase tracking-wide">Mobile Setup (Must Follow)</h3>
+                        <h3 className="text-xl font-bold text-white mb-2 uppercase tracking-wide">How To Take The Quiz</h3>
                         <ul className="space-y-2 text-sm text-gray-300 list-disc list-inside">
-                            <li><strong className="text-white">One Phone Only:</strong> Do not open the quiz on another device. Progress does not sync.</li>
-                            <li><strong className="text-white">Stay On Screen:</strong> Keep the browser open and full-screen. App switching, split-screen, or locking the phone counts as leaving.</li>
-                            <li><strong className="text-white">Stable Internet:</strong> Use strong Wi-Fi or data. Do not switch networks during the auction.</li>
-                            <li><strong className="text-white">Turn On DND:</strong> Enable Do Not Disturb to block notifications and calls during the auction.</li>
-                            <li><strong className="text-white">Battery Ready:</strong> Keep battery above 20% and disable battery saver to avoid timer pauses.</li>
-                        </ul>
-                    </div>
-
-                    <div className="bg-yellow-500/10 border-l-4 border-yellow-500 p-4">
-                        <h3 className="text-xl font-bold text-yellow-500 mb-2 uppercase tracking-wide">Auction Rules</h3>
-                        <ul className="space-y-2 text-sm text-gray-300 list-disc list-inside">
-                            <li><strong className="text-white">Strict Timing:</strong> The auction timer runs on the server. Refreshing will NOT reset time.</li>
-                            <li><strong className="text-white">No App/Tab Switching:</strong> Leaving the auction screen will trigger a warning.</li>
-                            <li><strong className="text-red-400">Auto-Submission:</strong> 3 Violations (Tab switching) will automatically SEAL your bid (Submit Quiz).</li>
-                            <li><strong className="text-white">Avoid Back/Forward:</strong> Using back/forward navigation can interrupt your session.</li>
+                            <li><strong className="text-white">Use One Device Only:</strong> Do not open the quiz on a second phone or laptop. The earlier device will be logged out.</li>
+                            <li><strong className="text-white">Stay Online:</strong> Use stable Wi-Fi or data. Avoid switching networks during the quiz.</li>
+                            <li><strong className="text-white">Timer Is Strict:</strong> The 5-minute timer runs on the server. Refreshing will NOT reset time.</li>
+                            <li><strong className="text-white">Do Not Use Back/Forward:</strong> Browser back/forward is blocked and can interrupt the session.</li>
+                            <li><strong className="text-white">Submit Carefully:</strong> If your internet drops during submit, the app saves an offline copy and shows an error.</li>
                         </ul>
                     </div>
 
                     <p className="text-xs text-gray-500 text-center font-mono">
-                        By entering, you agree to the chaotic market rules declared by the auctioneer.
+                        By entering, you agree to follow the quiz rules above.
                     </p>
 
                     <button
@@ -195,6 +185,12 @@ const LandingPage = () => {
                     </div>
                 </motion.form>
             )}
+            <div className="absolute bottom-4 right-4">
+                <span className="text-[10px] uppercase tracking-[0.35em] text-yellow-500/80 bg-black/60 border border-yellow-500/40 px-3 py-1 shadow-[0_0_12px_rgba(255,215,0,0.25)]">
+                    Created by Akshat Garg
+                </span>
+            </div>
+
         </motion.div>
     );
 };
