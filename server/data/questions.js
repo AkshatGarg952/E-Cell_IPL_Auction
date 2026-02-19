@@ -611,6 +611,126 @@ options: [
 correctOption: 0
 },
 
+{
+id: 'q51',
+question: "An IPL team has the maximum allowed overseas players in its squad. If each match allows exactly half of them to play, what is the ratio of overseas players playing to those not playing in any match?",
+options: [
+"1:1",
+"1:2",
+"2:1",
+"3:1"
+],
+correctOption: 0
+},
+
+{
+id: 'q52',
+question: "If a team builds a squad with maximum overseas players and minimum total squad size, what percentage of the squad must be Indian players?",
+options: [
+"44.4%",
+"50%",
+"55.6%",
+"60%"
+],
+correctOption: 2
+},
+
+{
+id: 'q53',
+question: "If a team uses the same playing XI for all matches in a season and has a full squad of 25 players, how many players remain completely unused throughout the season?",
+options: [
+"12",
+"13",
+"14",
+"15"
+],
+correctOption: 2
+},
+
+{
+id: 'q54',
+question: "If overseas players form exactly 8 members of a squad and only 4 are allowed in XI, what percentage of the total squad can overseas players represent at maximum?",
+options: [
+"25%",
+"32%",
+"40%",
+"44%"
+],
+correctOption: 1
+},
+
+{
+id: 'q55',
+question: "If IPL suddenly allowed one additional overseas player in XI but squad overseas limit remained unchanged, how many overseas players would still remain unused in a full overseas squad?",
+options: [
+"2",
+"3",
+"4",
+"5"
+],
+correctOption: 1
+},
+
+{
+id: 'q56',
+question: "If an IPL squad contains 25 players and the team fields maximum overseas players every match, what percentage of the squad participates in each match?",
+options: [
+"44%",
+"48%",
+"52%",
+"56%"
+],
+correctOption: 0
+},
+
+{
+id: 'q57',
+question: "If the overseas player limit was removed from squad but XI limit remained, what would be the maximum number of overseas players that could play simultaneously?",
+options: [
+"4",
+"8",
+"11",
+"25"
+],
+correctOption: 0
+},
+
+{
+id: 'q58',
+question: "If a team ensures that every player gets exactly one match in a season and squad size is 22, what must be true about total matches played?",
+options: [
+"At least 2 matches",
+"At least 3 matches",
+"At least 4 matches",
+"At least 5 matches"
+],
+correctOption: 0
+},
+
+{
+id: 'q59',
+question: "If an IPL team has equal number of Indian and overseas players in squad, what must be true about overseas count?",
+options: [
+"Less than 8",
+"Equal to 8",
+"Greater than 8",
+"Depends on squad size"
+],
+correctOption: 3
+},
+
+{
+id: 'q60',
+question: "If a team builds squad maximizing overseas players but always plays only Indian players, what percentage of overseas players will remain unused?",
+options: [
+"25%",
+"50%",
+"75%",
+"100%"
+],
+correctOption: 3
+},
+
 // VERY HARD (61–70)
 
 {
