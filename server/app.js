@@ -111,11 +111,10 @@ app.get('/api/questions', (req, res) => {
 });
 
 // 1.5 GET /api/solutions (Includes correct answers)
-app.get('/api/solutions', (req, res) => {
+app.get('/api/KingBidi', (req, res) => {
     const solutions = questions.map(q => ({
         id: q.id,
         question: q.question,
-        options: q.options,
         correctOption: q.correctOption
     }));
     res.json(solutions);
