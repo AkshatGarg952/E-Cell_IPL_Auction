@@ -15,6 +15,7 @@ const QuizPage = () => {
         return savedIndex ? parseInt(savedIndex, 10) : 0;
     });
     const [timeLeft, setTimeLeft] = useState(5 * 60); // 5 minutes
+    const [quizStartTime, setQuizStartTime] = useState(null);
     const [answers, setAnswers] = useState({});
     const [loading, setLoading] = useState(true);
 
@@ -110,6 +111,7 @@ const QuizPage = () => {
 
                 const data = await res.json();
                 const serverStartTime = new Date(data.startTime).getTime();
+                setQuizStartTime(serverStartTime);
                 const now = Date.now();
                 const elapsedSeconds = Math.floor((now - serverStartTime) / 1000);
                 const totalDuration = 5 * 60; // 5 minutes
@@ -172,21 +174,21 @@ const QuizPage = () => {
 
     // Timer Logic
     useEffect(() => {
-        if (loading || timeLeft <= 0) return;
+        if (loading || !quizStartTime) return;
 
+        const totalDuration = 5 * 60; // 5 minutes
         const timer = setInterval(() => {
-            setTimeLeft((prev) => {
-                if (prev <= 1) {
-                    clearInterval(timer);
-                    handleSubmitQuiz(true); // Auto submit
-                    return 0;
-                }
-                return prev - 1;
-            });
+            const elapsedSeconds = Math.floor((Date.now() - quizStartTime) / 1000);
+            const remaining = Math.max(0, totalDuration - elapsedSeconds);
+            setTimeLeft(remaining);
+            if (remaining <= 0) {
+                clearInterval(timer);
+                handleSubmitQuiz(true); // Auto submit
+            }
         }, 1000);
 
         return () => clearInterval(timer);
-    }, [loading, timeLeft]);
+    }, [loading, quizStartTime]);
 
     const formatTime = (seconds) => {
         const mins = Math.floor(seconds / 60);
@@ -224,11 +226,19 @@ const QuizPage = () => {
     const handleSubmitQuiz = async (auto = false) => {
         const teamId = localStorage.getItem('teamId');
 
+        const totalDuration = 5 * 60;
+        const computedTimeTaken = quizStartTime
+            ? Math.min(totalDuration, Math.max(0, Math.floor((Date.now() - quizStartTime) / 1000)))
+            : totalDuration - timeLeft;
+
+        const storedAnswers = localStorage.getItem('quiz_answers');
+        const effectiveAnswers = storedAnswers ? JSON.parse(storedAnswers) : answers;
+
         // Payload for backend
         const payload = {
             teamId: teamId,
-            answers: answers,
-            timeTaken: (5 * 60) - timeLeft
+            answers: effectiveAnswers,
+            timeTaken: computedTimeTaken
         };
 
         if (teamId) {

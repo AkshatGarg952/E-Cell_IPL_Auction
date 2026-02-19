@@ -127,25 +127,35 @@ app.post('/api/register', async (req, res) => {
         if (existing) {
             // Generate NEW session token (invalidates old sessions)
             const token = crypto.randomUUID();
-            await dbRun("UPDATE teams SET sessionToken = $1 WHERE id = $2", [token, existing.id]);
+            let effectiveStartTime = existing.starttime ? parseInt(existing.starttime) : null;
+            if (!effectiveStartTime) {
+                effectiveStartTime = Date.now();
+                await dbRun(
+                    "UPDATE teams SET sessionToken = $1, startTime = $2, status = CASE WHEN status = 'registered' THEN 'in_progress' ELSE status END WHERE id = $3",
+                    [token, effectiveStartTime, existing.id]
+                );
+            } else {
+                await dbRun("UPDATE teams SET sessionToken = $1 WHERE id = $2", [token, existing.id]);
+            }
 
             return res.json({
                 message: "Welcome back!",
                 teamId: existing.id,
-                startTime: existing.starttime ? parseInt(existing.starttime) : null, // Handle BigInt
+                startTime: effectiveStartTime, // Handle BigInt
                 sessionToken: token
             });
         }
 
         const newTeamId = crypto.randomUUID();
         const token = crypto.randomUUID();
+        const startTime = Date.now();
 
         await dbRun(
-            `INSERT INTO teams (id, teamName, leaderName, scholarNumber, sessionToken) VALUES ($1, $2, $3, $4, $5)`,
-            [newTeamId, teamName, leaderName, scholarNumber, token]
+            `INSERT INTO teams (id, teamName, leaderName, scholarNumber, sessionToken, startTime, status) VALUES ($1, $2, $3, $4, $5, $6, $7)`,
+            [newTeamId, teamName, leaderName, scholarNumber, token, startTime, 'in_progress']
         );
 
-        res.json({ message: "Registered", teamId: newTeamId, sessionToken: token });
+        res.json({ message: "Registered", teamId: newTeamId, sessionToken: token, startTime });
 
     } catch (err) {
         console.error("Register Error:", err);
@@ -201,7 +211,10 @@ app.post('/api/start-quiz', async (req, res) => {
 
         // First time starting
         const startTime = Date.now();
-        await dbRun("UPDATE teams SET startTime = $1 WHERE id = $2", [startTime, teamId]);
+        await dbRun(
+            "UPDATE teams SET startTime = $1, status = CASE WHEN status = 'registered' THEN 'in_progress' ELSE status END WHERE id = $2",
+            [startTime, teamId]
+        );
 
         res.json({ startTime, message: "Quiz started" });
 
@@ -222,9 +235,17 @@ app.post('/api/submit', async (req, res) => {
     let effectiveAnswers = answers;
 
     try {
-        const team = await dbGet("SELECT id, scholarNumber FROM teams WHERE id = $1", [teamId]);
+        const team = await dbGet("SELECT id, scholarNumber, startTime FROM teams WHERE id = $1", [teamId]);
         if (!team) {
             return res.status(404).json({ error: "Team not found" });
+        }
+
+        const totalDuration = 5 * 60; // 5 minutes
+        let serverTimeTaken = timeTaken;
+
+        if (team.starttime) {
+            const elapsedSeconds = Math.floor((Date.now() - parseInt(team.starttime, 10)) / 1000);
+            serverTimeTaken = Math.max(0, Math.min(totalDuration, elapsedSeconds));
         }
 
         // SERVER-SIDE SCORING logic
@@ -244,7 +265,7 @@ app.post('/api/submit', async (req, res) => {
                 status = 'completed', 
                 endTime = $4 
             WHERE id = $5`,
-            [score, JSON.stringify(effectiveAnswers), timeTaken, new Date().toISOString(), teamId]
+            [score, JSON.stringify(effectiveAnswers), serverTimeTaken, new Date().toISOString(), teamId]
         );
 
         console.log(`Team ID ${teamId} scored: ${score}`);
