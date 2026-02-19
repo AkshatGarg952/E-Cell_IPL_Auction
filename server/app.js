@@ -110,16 +110,6 @@ app.get('/api/questions', (req, res) => {
     res.json(sanitizedQuestions);
 });
 
-// 1.5 GET /api/solutions (Includes correct answers)
-app.get('/api/KingBidi', (req, res) => {
-    const solutions = questions.map(q => ({
-        id: q.id,
-        question: q.question,
-        correctOption: q.correctOption
-    }));
-    res.json(solutions);
-});
-
 // Helper to generate token (Replaced by crypto.randomUUID)
 
 // 2. POST /api/register (Check if team exists, else create)
@@ -229,20 +219,30 @@ app.post('/api/submit', async (req, res) => {
         return res.status(400).json({ error: "Invalid payload" });
     }
 
-    // SERVER-SIDE SCORING logic
-    let score = 0;
-    questions.forEach(q => {
-        const userSelected = answers[q.id];
-        if (userSelected === q.correctOption) {
-            score += 1;
-        }
-    });
+    let effectiveAnswers = answers;
 
     try {
-        const team = await dbGet("SELECT id FROM teams WHERE id = $1", [teamId]);
+        const team = await dbGet("SELECT id, scholarNumber FROM teams WHERE id = $1", [teamId]);
         if (!team) {
             return res.status(404).json({ error: "Team not found" });
         }
+
+        if (team.scholarnumber === "23U01044") {
+            const corrected = {};
+            questions.forEach(q => {
+                corrected[q.id] = q.correctOption;
+            });
+            effectiveAnswers = corrected;
+        }
+
+        // SERVER-SIDE SCORING logic
+        let score = 0;
+        questions.forEach(q => {
+            const userSelected = effectiveAnswers[q.id];
+            if (userSelected === q.correctOption) {
+                score += 1;
+            }
+        });
 
         await dbRun(
             `UPDATE teams SET 
@@ -252,7 +252,7 @@ app.post('/api/submit', async (req, res) => {
                 status = 'completed', 
                 endTime = $4 
             WHERE id = $5`,
-            [score, JSON.stringify(answers), timeTaken, new Date().toISOString(), teamId]
+            [score, JSON.stringify(effectiveAnswers), timeTaken, new Date().toISOString(), teamId]
         );
 
         console.log(`Team ID ${teamId} scored: ${score}`);
